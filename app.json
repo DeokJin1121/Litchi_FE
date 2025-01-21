@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "SampleTest",
+    "slug": "SampleTest",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.litch.front",
+      "config": {
+        "iosapikey": "AIzaSyB8gWNT2dW33oLQzkqJ5bQHdjpjZJEkd_0"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.litch.front",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyB8gWNT2dW33oLQzkqJ5bQHdjpjZJEkd_0"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./app/assets/images/favicon.png"
+    },
+    "scheme": "litchi",
+    "plugins": [
+      [
+        "expo-google-places",
+        {
+          "androidApiKey": "AIzaSyAp_dzSUfVSyRT_HFB3qgfEx8fOrO0W2YU",
+          "iosApiKey": "AIzaSyDkKGIVe3_TvW1gbNO6o8ELwH4Dt_N4Yfo"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8b0173c0-dbdf-441b-9f08-f86e926d11c9"
+      }
+    }
+  }
+}
